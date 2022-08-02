@@ -40,7 +40,7 @@ public class Exeat {
                 // write to file: try catch block is needed to do anything create, write and close files
                 try {
                     FileWriter schoolExeatGranted = new FileWriter("schoolExeatGranted.txt");  // create file
-                    schoolExeatGranted.write("Reason For Exeat - " + reasonValue + "\n Period of Exeat - " + periodValue + "\n Dean: SIGNED"); // write to file
+                    schoolExeatGranted.write("Reason For Exeat - " + reasonValue + "\nPeriod of Exeat - " + periodValue + "\nDean: SIGNED"); // write to file
                     schoolExeatGranted.close(); // close file. must close file after use
                 } catch (IOException ex) {
                     System.out.println(ex);   // catch any error
